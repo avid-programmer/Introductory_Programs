@@ -14,7 +14,6 @@ int length(node *head)
 	{
 		return 0;
 	}
-
 	else 
 	{
 		return 1 + length(head->next);
